@@ -1,0 +1,52 @@
+.effect-img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+        &:not(:first-child) {
+            display: none;
+        }
+    }
+    order: 1;
+
+    @media (min-width: 660px) {
+        order: 0;
+        z-index: 1;
+    }
+
+    @media (min-width: 1200px) {
+        li {
+            &:not(:first-child) {
+                display: block;
+            }
+        }
+
+        display: flex;
+        justify-content: space-between;        
+        margin: 0 auto;
+        width: 942px;
+        
+    }
+}
+
+.effect-img__item {
+    img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    @media (min-width: 660px) {
+        padding-right: 42px;
+        margin-top: -80px;
+        
+    }
+
+    @media (min-width: 1200px) {
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+    }
+    
+}
+
+

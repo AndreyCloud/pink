@@ -1,0 +1,109 @@
+.contacts__title {
+    width: 230px;
+    margin: 0 auto;
+    color: var(--text-color);
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding-top: 42px;
+    font-weight: 300;
+    
+    @media (min-width: 660px) {
+        width: 380px;
+        font-size: 40px;
+        line-height: 54px;
+    }
+    @media (min-width: 1200px) {
+        width: 470px;
+        font-size: 50px;
+        line-height: 68px;
+        padding-top: 60px;
+    }
+}
+
+.contacts__list {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+
+    @media (min-width: 660px) {
+        width: 640px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 33px;
+    }
+    @media (min-width: 1200px) {
+        width: 960px;
+        padding-top: 40px;        
+    }
+}
+
+.contacts__list--term{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.contacts__list--decryption{
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 33px;
+    font-weight: 300;
+    
+    @media (min-width: 660px) {
+        padding-top: 3px;
+    }
+    @media (min-width: 1200px) {
+        padding-top: 20px;
+    }
+}
+
+.contacts_item {
+    margin-bottom: 15px;
+
+    @media (min-width: 660px) {
+        width: 280px;
+        margin-left: -18px;
+    }
+    @media (min-width: 1200px) {        
+        margin-left: 0px;
+    }
+}
+
+.contacts__list--link,
+.contacts__list--address {
+    color: var(--menu-hover);
+    text-decoration: none;
+    font-style: normal;       
+}
+
+.contacts__list--link {
+    &:hover {
+        color: var(--text-color);
+        text-decoration: underline;
+    }
+    &:active {
+        opacity: 0.3;
+    }
+}
+
+.contacts_item--address{
+    padding-top: 6px;
+
+    @media (min-width: 660px) {
+        padding-top: 27px;
+    }
+    @media (min-width: 1200px) {
+        order: -1;
+        padding: 0;
+    }
+}
+
+.contacts_item--phone {
+    @media (min-width: 1200px) {
+        order: -2;        
+    }
+}

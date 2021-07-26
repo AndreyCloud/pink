@@ -1,0 +1,131 @@
+.stady__wraper {
+    display: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+    @media (min-width: 660px) {
+        display: flex;
+        justify-content: space-between;
+        width: 660px;    
+    }
+
+    @media (min-width: 1200px) {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        
+        padding-left: 110px;
+        padding-bottom: 65px;    
+    }
+}
+
+.study__icon-wraper {
+    position: relative;
+    &::after {
+        content: "";        
+        box-sizing: border-box;        
+        width: 202px;
+        height: 202px;        
+        border: 16px solid var(--menu-hover);
+        border-radius: 50%;
+        position: absolute;
+        right: 18px;
+        bottom: 22px;
+        
+        @media (min-width: 1200px) {
+            width: 252px;
+            height: 252px;
+            right: 22px;
+            bottom: 27px;
+        }
+    }    
+
+    &::before {
+        content: "24";
+        font-size: 96px;
+        font-weight: 700;
+        color: var(--menu-hover);
+        position: absolute;
+        left: 85px;
+        top: 100px;
+
+        @media (min-width: 1200px) {
+            font-size: 120px;
+            left: 102px;
+            top: 123px;
+        }
+    } 
+    
+    
+
+}
+
+.study__icon { 
+    width: 238px;
+    height: 276px;   
+    fill: var(--watch-color);
+    padding-left: 20px;
+    position: relative;
+
+    @media (min-width: 1200px) {
+        width: 298px;
+        height: 345px;
+    }
+    
+}
+
+.study__text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-right: 30px;
+    p {
+        font-size: 14px;
+        line-height: 24px;        
+        margin-top: 10px;
+
+        @media (min-width: 1200px) {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 25px;
+        }
+    } 
+    a {
+        font-size: 14px;
+        color: var(--menu-hover);
+
+        @media (min-width: 1200px) {
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 13px;
+        }
+    } 
+    
+    @media (min-width: 1200px) {
+        width: 530px;
+        padding-right: 170px;
+        padding-top: 53px;
+    }
+}
+
+h2 {
+    box-sizing: border-box;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    width: 180px;
+    margin: 41px 0 0;
+    span {
+        display: inline-block;
+        width: 180px;
+
+        @media (min-width: 1200px) {
+            display: inline;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        width: 300px;
+        line-height: 30px;
+    }
+}
