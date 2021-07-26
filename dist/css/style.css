@@ -647,7 +647,7 @@ body {
 }
 
 .header__wraper {
-  background: url(/img/iphone-hand-mobile@1x.png) left no-repeat, url(/img/bg-back-mobile@1x.jpg) top no-repeat;
+  background: url(../img/iphone-hand-mobile@1x.png) left no-repeat, url(../img/bg-back-mobile@1x.jpg) top no-repeat;
   background-size: auto 285px, 100% 472px;
   background-position: left 43.5%, 0% 0%;
 }
@@ -2232,7 +2232,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   }
 
   .header__wraper {
-    background: url(/img/iphone-hand-tablet@1x.png) left no-repeat, url(/img/bg-back-tablet@1x.jpg) top no-repeat;
+    background: url(../img/iphone-hand-tablet@1x.png) left no-repeat, url(../img/bg-back-tablet@1x.jpg) top no-repeat;
     background-size: auto 545px, 1200px 729px;
     background-position: 50% 100%, 50% 0%;
   }
@@ -2950,7 +2950,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 660px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 660px), (min-resolution: 2dppx) and (min-width: 660px) {
   .header__wraper {
-    background: url(/img/iphone-hand-tablet@2x.png) left no-repeat, url(/img/bg-back-tablet@2x.jpg) top no-repeat;
+    background: url(../img/iphone-hand-tablet@2x.png) left no-repeat, url(../img/bg-back-tablet@2x.jpg) top no-repeat;
     background-size: auto 545px, 1200px 729px;
     background-position: 50% 100%, 50% 0%;
   }
@@ -3067,7 +3067,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   }
 
   .header {
-    background: url(/img/bg-back-desktop@1x.jpg) top no-repeat;
+    background: url(../img/bg-back-desktop@1x.jpg) top no-repeat;
     background-size: 2560px 853px;
     background-position: 50% 0%;
   }
@@ -3094,7 +3094,7 @@ input[type="range"]:active::-webkit-slider-thumb {
   }
 
   .header__wraper {
-    background: url(/img/iphone-hand-desktop@1x.png) left no-repeat;
+    background: url(../img/iphone-hand-desktop@1x.png) left no-repeat;
     background-size: 1050px 645px;
     background-position: 97.5% 100%;
     padding-left: 130px;
@@ -3793,13 +3793,13 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 1200px), (min-resolution: 2dppx) and (min-width: 1200px) {
   .header {
-    background: url(/img/bg-back-desktop@2x.jpg) top no-repeat;
+    background: url(../img/bg-back-desktop@2x.jpg) top no-repeat;
     background-size: 2560px 853px;
     background-position: 50% 0%;
   }
 
   .header__wraper {
-    background: url(/img/iphone-hand-desktop@2x.png) left no-repeat;
+    background: url(../img/iphone-hand-desktop@2x.png) left no-repeat;
     background-size: 1050px 645px;
     background-position: 97.5% 100%;
     padding-left: 130px;
@@ -3913,13 +3913,13 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (max-width: 659px), (-o-min-device-pixel-ratio: 2/1) and (max-width: 659px), (min-resolution: 2dppx) and (max-width: 659px) {
   .header__wraper {
-    background: url(/img/iphone-hand-mobile@2x.png) left no-repeat, url(/img/bg-back-mobile@2x.jpg) top no-repeat;
+    background: url(../img/iphone-hand-mobile@2x.png) left no-repeat, url(../img/bg-back-mobile@2x.jpg) top no-repeat;
     background-size: auto 285px, 100% 472px;
     background-position: left 43.5%, 0% 0%;
   }
 
   .header__wraper--page {
-    background: url(/img/bg-back-mobile@2x.jpg) top no-repeat;
+    background: url(../img/bg-back-mobile@2x.jpg) top no-repeat;
     background-size: 100% 472px;
     background-position: 0% 0%;
   }
@@ -3927,7 +3927,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (max-width: 659px) {
   .header__wraper--page {
-    background: url(/img/bg-back-mobile@1x.jpg) top no-repeat;
+    background: url(../img/bg-back-mobile@1x.jpg) top no-repeat;
     background-size: 100% 460px;
     background-position: 0% 0%;
   }
@@ -3949,7 +3949,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (min-width: 660px) and (max-width: 1200px) {
   .header__wraper--page {
-    background: url(/img/bg-back-tablet@1x.jpg) top no-repeat;
+    background: url(../img/bg-back-tablet@1x.jpg) top no-repeat;
     background-size: 1200px 729px;
     background-position: 50% 0%;
   }
@@ -3957,7 +3957,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 @media (-webkit-min-device-pixel-ratio: 2) and (min-width: 660px) and (max-width: 1200px), (-o-min-device-pixel-ratio: 2/1) and (min-width: 660px) and (max-width: 1200px), (min-resolution: 2dppx) and (min-width: 660px) and (max-width: 1200px) {
   .header__wraper--page {
-    background: url(/img/bg-back-tablet@2x.jpg) top no-repeat;
+    background: url(../img/bg-back-tablet@2x.jpg) top no-repeat;
     background-size: 1200px 729px;
     background-position: 50% 0%;
   }

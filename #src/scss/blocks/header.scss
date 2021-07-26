@@ -8,13 +8,13 @@
     }
 
     @media (min-width: 1200px) {
-        background: url(/img/bg-back-desktop@1x.jpg) top no-repeat;
+        background: url(../img/bg-back-desktop@1x.jpg) top no-repeat;
         background-size: 2560px 853px;
         background-position: 50% 0%;
     }
 
     @media (min-resolution: 2dppx) and (min-width: 1200px) {
-        background: url(/img/bg-back-desktop@2x.jpg) top no-repeat;
+        background: url(../img/bg-back-desktop@2x.jpg) top no-repeat;
         background-size: 2560px 853px;
         background-position: 50% 0%;
     }
@@ -98,37 +98,37 @@
     }
 }
 .header__wraper {
-    background: url(/img/iphone-hand-mobile@1x.png) left no-repeat, url(/img/bg-back-mobile@1x.jpg) top no-repeat;
+    background: url(../img/iphone-hand-mobile@1x.png) left no-repeat, url(../img/bg-back-mobile@1x.jpg) top no-repeat;
     background-size: auto 285px, 100% 472px;
     background-position: left 43.5%, 0% 0%;
 
     @media (min-resolution: 2dppx) and (max-width: 659px) {
-        background: url(/img/iphone-hand-mobile@2x.png) left no-repeat, url(/img/bg-back-mobile@2x.jpg) top no-repeat;
+        background: url(../img/iphone-hand-mobile@2x.png) left no-repeat, url(../img/bg-back-mobile@2x.jpg) top no-repeat;
         background-size: auto 285px, 100% 472px;
         background-position: left 43.5%, 0% 0%;
     }
 
     @media (min-width: 660px) {
-        background: url(/img/iphone-hand-tablet@1x.png) left no-repeat, url(/img/bg-back-tablet@1x.jpg) top no-repeat;
+        background: url(../img/iphone-hand-tablet@1x.png) left no-repeat, url(../img/bg-back-tablet@1x.jpg) top no-repeat;
         background-size: auto 545px, 1200px 729px;
         background-position: 50% 100%, 50% 0%;
     }
 
     @media (min-resolution: 2dppx) and (min-width: 660px) {
-        background: url(/img/iphone-hand-tablet@2x.png) left no-repeat, url(/img/bg-back-tablet@2x.jpg) top no-repeat;
+        background: url(../img/iphone-hand-tablet@2x.png) left no-repeat, url(../img/bg-back-tablet@2x.jpg) top no-repeat;
         background-size: auto 545px, 1200px 729px;
         background-position: 50% 100%, 50% 0%;
     }
 
     @media (min-width: 1200px) {
-        background: url(/img/iphone-hand-desktop@1x.png) left no-repeat;
+        background: url(../img/iphone-hand-desktop@1x.png) left no-repeat;
         background-size: 1050px 645px;
         background-position: 97.5% 100%;
         padding-left: 130px;
     }
 
     @media (min-resolution: 2dppx) and (min-width: 1200px) {
-        background: url(/img/iphone-hand-desktop@2x.png) left no-repeat;
+        background: url(../img/iphone-hand-desktop@2x.png) left no-repeat;
         background-size: 1050px 645px;
         background-position: 97.5% 100%;
         padding-left: 130px;
@@ -137,24 +137,24 @@
 
 .header__wraper--page {
     @media (max-width: 659px) {
-        background: url(/img/bg-back-mobile@1x.jpg) top no-repeat;
+        background: url(../img/bg-back-mobile@1x.jpg) top no-repeat;
         background-size: 100% 460px;
         background-position: 0% 0%;
     }
     @media (min-resolution: 2dppx) and (max-width: 659px) {
-        background: url(/img/bg-back-mobile@2x.jpg) top no-repeat;
+        background: url(../img/bg-back-mobile@2x.jpg) top no-repeat;
         background-size: 100% 472px;
         background-position: 0% 0%;
     }
 
     @media (min-width: 660px) and (max-width: 1200px) {
-        background: url(/img/bg-back-tablet@1x.jpg) top no-repeat;
+        background: url(../img/bg-back-tablet@1x.jpg) top no-repeat;
         background-size: 1200px 729px;
         background-position: 50% 0%;
     }
 
     @media (min-resolution: 2dppx) and (min-width: 660px) and(max-width: 1200px) {
-        background: url(/img/bg-back-tablet@2x.jpg) top no-repeat;
+        background: url(../img/bg-back-tablet@2x.jpg) top no-repeat;
         background-size: 1200px 729px;
         background-position: 50% 0%;
     }
