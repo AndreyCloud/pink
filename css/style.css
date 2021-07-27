@@ -919,6 +919,7 @@ h2 span {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 280px;
+  height: 270px;
   margin: 0 auto;
 }
 
@@ -2320,6 +2321,10 @@ input[type="range"]:active::-webkit-slider-thumb {
         -ms-flex-pack: justify;
             justify-content: space-between;
     width: 660px;
+  }
+
+  .slider__item {
+    height: 190px;
   }
 
   .reviews {
